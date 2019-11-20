@@ -36,16 +36,11 @@ end
 
 def update_counting_hash(hash, key)
   
-  update_counting_hash = {
-    key => value
-  }
   
-  hash[key]
-  
-  if update_counting_hash[hello]
-      update_counting_hash[hello] += 1
+  if update_counting_hash[hash]
+      update_counting_hash[hash] += 1
   else
-      hash[key] = 1
+       update_counting_hash[hash] = 1
   end
 
 end
