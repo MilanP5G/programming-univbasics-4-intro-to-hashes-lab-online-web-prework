@@ -36,10 +36,10 @@ end
 
 def update_counting_hash(hash, key)
   
-  if update_counting_hash[{}, key]
-     update_counting_hash[{}, key] += 1
+  if update_counting_hash[hash, key]
+     update_counting_hash += 1
   else
-     update_counting_hash[{}, key] =1
+     update_counting_hash =1
   end
 
 end
